@@ -42,7 +42,7 @@ class PacketSniffer:
 # Function to run the sniffer
 def run_sniffer():
     if len(sys.argv) < 2 or len(sys.argv) > 3: # Check if the correct number of argument is provided
-        print("Usage: Python sniffer.py <interface>")  # Print usage information
+        print("Usage: Python bsniffer.py <interface>")  # Print usage information
         sys.exit(1) # Exit with error code
 
     interface = sys.argv[1] # Get interface from command line argument
